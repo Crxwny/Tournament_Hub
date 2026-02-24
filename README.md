@@ -6,6 +6,20 @@ The system allows users to register for games individually or in teams, manage i
 
 ---
 
+## Overview
+
+- [Project Goals](#-project-goals)
+- [Tech Stack](#-tech-stack)
+- [Authentication](#-authentication)
+- [Team System](#-team-system)
+- [Matchmaking & Scheduling](#-matchmaking--scheduling)
+- [CMS Integration](#-cms-integration)
+- [Project Management](#-project-management)
+- [Future Improvements](#-future-improvements)
+- [License](#-license)
+
+---
+
 ## 🎯 Project Goals
 
 - **User authentication** and profile management

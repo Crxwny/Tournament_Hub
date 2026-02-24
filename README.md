@@ -15,8 +15,7 @@ The system allows users to register for games individually or in teams, manage i
 - [Matchmaking & Scheduling](#-matchmaking--scheduling)
 - [CMS Integration](#-cms-integration)
 - [Project Management](#-project-management)
-- [Future Improvements](#-future-improvements)
-- [License](#-license)
+- [Notion Workspace](#-notion-workspace)
 
 ---
 
@@ -38,7 +37,7 @@ The system allows users to register for games individually or in teams, manage i
 |------|-------------|
 | **Frontend** | Web app (React / Next.js planned) |
 | **Auth & Backend** | Firebase Authentication, Firestore, Hosting, Storage |
-| **CMS** | Headless CMS (e.g. Strapi or Sanity), API-based content delivery |
+| **CMS** | Headless CMS (Sanity), API-based content delivery |
 
 ---
 
@@ -84,27 +83,14 @@ Content is delivered via API.
 
 ## 📊 Project Management
 
-- **Method:** Scrum  
 - **Team:** Damian (Product Owner & Scrum Master), Jayden & Leon (Developer)  
 - **Dev time:** 4 h/week (SWP session)  
 - **Board:** Stories → Tasks → In Progress → Verify → Done  
 
-**Notion workspace:**  
+---
+
+## 📌 Notion Workspace
+
 [Tournament Hub on Notion](https://verdant-gambler-420.notion.site/Tournament-Hub-a8283e9edf1042c89d250a64486c2b0b)
 
----
 
-## 🚀 Future Improvements
-
-- Live match updates  
-- Leaderboards  
-- Tournament bracket visualization  
-- Push notifications  
-- Dark mode  
-- Statistics dashboard  
-
----
-
-## 📄 License
-
-Educational project for school use.

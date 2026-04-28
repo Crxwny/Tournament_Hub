@@ -1,3 +1,36 @@
 node_modules
 dist
 .DS_Store
+
+# === Feature files released story by story ===
+# See IMPLEMENTATION_ORDER.md for the schedule.
+# Remove the matching line(s) when you release a story, then commit.
+
+# US-01 — Account erstellen
+src/pages/RegisterPage.tsx
+src/services/users.ts
+
+# US-02 — Einloggen
+src/pages/LoginPage.tsx
+
+# US-09 — Team gründen
+src/components/ProtectedRoute.tsx
+src/services/teams.ts
+src/pages/TeamsPage.tsx
+
+# US-10 — Spieler einladen
+src/services/invites.ts
+src/pages/TeamDetailPage.tsx
+
+# US-11 — Einladung annehmen / ablehnen
+src/pages/InvitesPage.tsx
+
+# US-05 — Turnier erstellen
+src/services/tournaments.ts
+src/pages/TournamentsPage.tsx
+
+# US-06 — Turnier-Detail / Status
+src/pages/TournamentDetailPage.tsx
+
+# US-15 — Admin-Dashboard
+src/pages/AdminPage.tsx

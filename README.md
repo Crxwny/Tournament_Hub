@@ -27,7 +27,6 @@ The system allows users to register for games individually or in teams, manage i
 - **Automated random matchmaking**
 - **Match scheduling** with time slots
 - **Result tracking** (Win / Lose)
-- **CMS-based admin** content management
 
 ---
 
@@ -35,16 +34,14 @@ The system allows users to register for games individually or in teams, manage i
 
 | Area | Technology |
 |------|-------------|
-| **Frontend** | Web app (React / Next.js planned) |
-| **Auth & Backend** | Firebase Authentication, Firestore, Hosting, Storage |
-| **CMS** | Headless CMS (Sanity), API-based content delivery |
+| **Frontend** | React 
+| **Auth & Backend** | Firebase 
 
 ---
 
 ## 🔐 Authentication
 
 - Sign in with **Email & Password**
-- Optional **Google Login**
 - User profiles in Firestore (uid, username, email, gamesSignedUp, teams)
 
 ---
@@ -67,17 +64,6 @@ For team-based games (e.g. Valorant):
 - Admin controls tournament start
 - Matches in Firestore with status: *Pending* → *Playing* → *Finished*
 - **Win / Lose** display after completion
-
----
-
-## 📰 CMS Integration
-
-Admins manage via a Headless CMS:
-
-- Games, rules, news
-- Event info and time slots  
-
-Content is delivered via API.
 
 ---
 

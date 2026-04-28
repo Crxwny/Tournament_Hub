@@ -1,7 +1,8 @@
 node_modules
 dist
 .DS_Store
-
+IMPLEMENTATION_ORDER.md
+SCRUM_STORIES.md
 # === Feature files released story by story ===
 # See IMPLEMENTATION_ORDER.md for the schedule.
 # Remove the matching line(s) when you release a story, then commit.

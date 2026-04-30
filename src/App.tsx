@@ -3,6 +3,7 @@ import { ConfigBanner } from "./components/ConfigBanner";
 import { Navbar } from "./components/Navbar";
 import { HomePage } from "./pages/HomePage";
 import { RegisterPage } from "./pages/RegisterPage";
+import { LoginPage } from "./pages/LoginPage";
 
 
 export function App() {
@@ -13,6 +14,7 @@ export function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/register" element={<RegisterPage />} />
+        <Route path="/login" element={<LoginPage />} />
         <Route
           path="*"
           element={

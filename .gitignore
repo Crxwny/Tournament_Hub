@@ -10,7 +10,6 @@ SCRUM_STORIES.md
 # US-01 — Account erstellen
 
 # US-02 — Einloggen
-src/pages/LoginPage.tsx
 
 # US-09 — Team gründen
 src/components/ProtectedRoute.tsx

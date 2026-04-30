@@ -21,9 +21,14 @@ export function Navbar() {
         </nav>
         <div className="nav-auth">
           {!firebaseUser && (
-            <Link className="btn btn-primary" to="/register">
-              Sign up
-            </Link>
+            <>
+              <Link className="btn btn-ghost" to="/login">
+                Log in
+              </Link>
+              <Link className="btn btn-primary" to="/register">
+                Sign up
+              </Link>
+            </>
           )}
         </div>
       </div>

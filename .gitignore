@@ -8,8 +8,6 @@ SCRUM_STORIES.md
 # Remove the matching line(s) when you release a story, then commit.
 
 # US-01 — Account erstellen
-src/pages/RegisterPage.tsx
-src/services/users.ts
 
 # US-02 — Einloggen
 src/pages/LoginPage.tsx

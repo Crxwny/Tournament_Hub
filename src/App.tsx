@@ -2,6 +2,8 @@ import { Route, Routes } from "react-router-dom";
 import { ConfigBanner } from "./components/ConfigBanner";
 import { Navbar } from "./components/Navbar";
 import { HomePage } from "./pages/HomePage";
+import { RegisterPage } from "./pages/RegisterPage";
+
 
 export function App() {
   return (
@@ -10,6 +12,7 @@ export function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/register" element={<RegisterPage />} />
         <Route
           path="*"
           element={

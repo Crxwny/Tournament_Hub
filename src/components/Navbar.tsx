@@ -3,7 +3,7 @@ import { useAuth } from "../contexts/AuthContext";
 import { logoutUser } from "../services/auth";
 
 export function Navbar() {
-  const { firebaseUser } = useAuth();
+  const { firebaseUser, profile } = useAuth();
   const navigate = useNavigate();
 
   const handleLogout = async () => {
@@ -27,21 +27,29 @@ export function Navbar() {
             </ul>
           </nav>
           <div className="nav-auth">
-            {firebaseUser ? (
-                <button className="btn btn-ghost" onClick={handleLogout}>
-                  Log out
-                </button>
-            ) : (
-                <>
-                  <Link className="btn btn-ghost" to="/login">
-                    Log in
-                  </Link>
-                  <Link className="btn btn-primary" to="/register">
-                    Sign up
-                  </Link>
-                </>
-            )}
-          </div>
+  {firebaseUser ? (
+    <>
+      <span className="nav-user">
+        {profile?.username ?? firebaseUser.email}
+        {profile?.role === "admin" && (
+          <span className="badge badge-admin">admin</span>
+        )}
+      </span>
+      <button className="btn btn-ghost" onClick={handleLogout}>
+        Log out
+      </button>
+    </>
+  ) : (
+    <>
+      <Link className="btn btn-ghost" to="/login">
+        Log in
+      </Link>
+      <Link className="btn btn-primary" to="/register">
+        Sign up
+      </Link>
+    </>
+  )}
+</div>
         </div>
       </header>
   );
